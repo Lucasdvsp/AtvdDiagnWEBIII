@@ -1,0 +1,82 @@
+/* Seção estrutural */
+#headerCPS {
+    width: 100vw; /*Lucas: Largura do header*/
+    height: 15vh; /*Lucas: Altura do header*/
+    background-color: #B11216;
+    
+}
+#footerSite {
+    width: 100vw; /*Lucas: Largura do footer*/
+    height: 15vh; /*Lucas: Altura do footer*/
+    background-color: #B11216;  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#meioDaTela {
+    width: 100vw; /*Lucas: Largura da seção "meio da tela"*/
+    height: 75vh; /*Lucas: Altura da seção "meio da tela"*/
+}
+body {
+    background-color: #f1f2f3;
+}
+
+/* Seção de imagens */
+#logoCPS { 
+    width: 10vw; /*Lucas: Largura da imagem*/
+    height: 15vh; /*Lucas: Altura da imagem*/
+}
+#logoFooter {
+    width: 20vw; /*Lucas: Largura da imagem*/
+    height: 35vh; /*Lucas: Altura da imagem*/
+}
+
+/* Seção de "componentes" */
+#ladoEsquerdoTela {
+    display: flex;
+    width: 50vw; /*Lucas: Altura da tag semântica aside*/
+    height: 75vh; /*Lucas: Altura da tag semântica aside*/
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Seção formulário*/
+#formSite {
+    padding: 5%;
+    width: 30%;
+    height: 60%;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+#formSite input{
+    flex-direction: row; /* Direção em linhas */
+    margin: 5%; /* Lucas: espaçamento */
+    height: 12%;
+    border-radius: 5px;
+    border:none; /* Lucas: sem a cor feia de borda */
+    background-color:#f1f2f3;
+    font-family: sans-serif;
+}
+#tituloForm {
+    font-family: sans-serif;
+    font-size: 20px;
+    color:#ffffff;
+}
+#botaoForm {
+    border:none;
+    background-color: #B11216;
+    color:#ffffff;
+    width: 70%;
+    height: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#headerForm {
+    margin-top: 0;
+    background-color: #B11216;
+    width: 100%;
+    height: 20%;
+}
+
